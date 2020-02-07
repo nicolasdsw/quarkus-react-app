@@ -1,1 +1,1 @@
-web java -jar -Dquarkus.http.port=80 target/crud-runner.jar
+web: java $JAVA_OPTS -jar target/*.jar
