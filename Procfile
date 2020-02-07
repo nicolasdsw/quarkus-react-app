@@ -1,1 +1,1 @@
-java -jar target/crud-1.0.0-runner.jar
+java -jar -Dquarkus.http.port=80 target/crud-1.0.0-runner.jar
