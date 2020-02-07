@@ -1,4 +1,4 @@
-# quarkus-react-crud project
+# quarkus-react-app project
 This project uses Quarkus, the Supersonic Subatomic Java Framework: https://quarkus.io/  
 This project uses React: https://github.com/facebook/create-react-app  
 
