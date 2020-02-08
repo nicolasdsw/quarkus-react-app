@@ -1,1 +1,1 @@
-web: java -jar target/*.jar -port $PORT
+web: java -jar -Dquarkus.http.port=80 target/quarkus-react-app-runner.jar
