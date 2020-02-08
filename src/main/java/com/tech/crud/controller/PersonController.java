@@ -9,7 +9,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.tech.model.Person;
+import com.tech.crud.model.Person;
 
 @Path("/api/persons")
 @Produces(MediaType.APPLICATION_JSON)

@@ -1,4 +1,4 @@
-package com.tech.model;
+package com.tech.crud.model;
 
 import java.time.LocalDate;
 
