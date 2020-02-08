@@ -1,1 +1,0 @@
-web: java -jar -Dquarkus.http.port=80 target/quarkus-react-app-runner.jar
