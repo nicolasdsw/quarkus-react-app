@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <name>quarkus-react-app</name>
   <groupId>com.tech.crud</groupId>
-  <artifactId>crud</artifactId>
+  <artifactId>quarkus-react-app</artifactId>
   <version>1.0.0</version>
   <properties>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>

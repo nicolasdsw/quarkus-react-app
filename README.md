@@ -10,8 +10,7 @@ Backend:
   `./mvnw quarkus:dev`
 
 Frontend: 
-  `cd frontend`
-  `yarn start`
+  `cd frontend && yarn start`
 
 ## Packaging and running the application  
 
