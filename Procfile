@@ -1,1 +1,1 @@
-web: java -jar target/*.jar
+web: java -Dquarkus.http.port=${PORT} -jar target/*-runner.jar
