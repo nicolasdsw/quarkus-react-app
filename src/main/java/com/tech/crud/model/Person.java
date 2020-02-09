@@ -2,6 +2,13 @@ package com.tech.crud.model;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+
+import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,14 +17,15 @@ import lombok.NoArgsConstructor;
 /**
  * Person
  */
-@Data
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Person {
+public class Person extends PanacheEntity {
 
-  private Long id;
-  private String name;
-  private LocalDate birthdate;
-  private Double height;
+  @NotBlank
+  public String name;
+  public LocalDate birthdate;
+  @Min(1)
+  public Double height;
 }
